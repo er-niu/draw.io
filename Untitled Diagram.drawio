@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-09T07:46:55.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="kC2XshWu8gM8fw_lG4xn" version="12.4.9" type="github" pages="4">
+<mxfile host="www.draw.io" modified="2020-01-13T06:38:35.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="40hOaqlew9kFYXZm-aoP" version="12.4.9" type="github" pages="5">
   <diagram id="4wC2L3u3aUZM4lQIBsnp" name="Page-1">
     <mxGraphModel dx="946" dy="571" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -520,6 +520,71 @@
         </mxCell>
         <mxCell id="FP0DwgYRNTkkFV5dtclW-41" value="放弃时间+私海配置认领限制是否大于当前时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="O9DxXQOQEbG7d6n_16Bm-1">
           <mxGeometry x="675" y="403" width="70" height="70" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZtBXYaSBRu590W_Ub4ld" name="Page-5">
+    <mxGraphModel dx="119" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Lm6sUfiDQkOVtp2TUGWE-0"/>
+        <mxCell id="Lm6sUfiDQkOVtp2TUGWE-1" parent="Lm6sUfiDQkOVtp2TUGWE-0"/>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-19" value="消息接收" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1181" y="120" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-20" value="" style="endArrow=none;dashed=1;html=1;fillColor=#A9C4EB;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="474" as="sourcePoint"/>
+            <mxPoint x="1290" y="130" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-21" value="合并处理模块" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1565" y="120" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-22" value="合并配置模块" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1350" y="120" width="90" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-23" value="" style="endArrow=none;dashed=1;html=1;fillColor=#A9C4EB;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1490" y="484" as="sourcePoint"/>
+            <mxPoint x="1490" y="125" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;fillColor=#A9C4EB;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1" source="Zs1wxeeVzF56ee48LSVB-25" target="Zs1wxeeVzF56ee48LSVB-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-25" value="合并消息" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1150" y="219" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;jettySize=auto;orthogonalLoop=1;fillColor=#A9C4EB;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1" source="Zs1wxeeVzF56ee48LSVB-27" target="Zs1wxeeVzF56ee48LSVB-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-27" value="获取住宿业务合并配置信息" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1340" y="219" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fillColor=#A9C4EB;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1" source="Zs1wxeeVzF56ee48LSVB-29" target="Zs1wxeeVzF56ee48LSVB-30">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-29" value="查询主子门店私海信息" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1525" y="219" width="100" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1" source="Zs1wxeeVzF56ee48LSVB-30" target="Zs1wxeeVzF56ee48LSVB-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-30" value="根据BD在职状态计算主门店归属人" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1660" y="218" width="120" height="41" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-36" value="主门店分配" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1665" y="400" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Lm6sUfiDQkOVtp2TUGWE-1" source="Zs1wxeeVzF56ee48LSVB-37" target="Zs1wxeeVzF56ee48LSVB-36">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-37" value="删除主子门店私海记录" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=none;fontSize=15;fontColor=#000000;align=center;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1665" y="310" width="110" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="Zs1wxeeVzF56ee48LSVB-41" value="门店所有者确定策略:&lt;br&gt;1：最早认领人&lt;br&gt;2：最近认领人&lt;br&gt;3：主门店所有人&lt;br&gt;&lt;font color=&quot;#ff6666&quot;&gt;4：根据BD在职状态计算&lt;/font&gt;&lt;br&gt;99：不做任何操作" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="Lm6sUfiDQkOVtp2TUGWE-1">
+          <mxGeometry x="1330" y="345" width="150" height="90" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
